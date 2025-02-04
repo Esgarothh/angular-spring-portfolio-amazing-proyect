@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+
+        {
+            "type": "java",
+            "name": "Launch Spring Boot App",
+            "request": "launch",
+            "mainClass": "com.appbackend.demo.DemoApplication",
+            "projectName": "Backend-SpringBoot"
+        }
+    ]
+}

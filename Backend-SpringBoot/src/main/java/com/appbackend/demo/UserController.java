@@ -1,4 +1,4 @@
-package com.appbackend.demo.controllers;
+package com.appbackend.demo;
 
 import com.appbackend.demo.models.User;
 import com.appbackend.demo.repositories.UserRepository;
