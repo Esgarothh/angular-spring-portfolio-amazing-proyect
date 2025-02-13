@@ -1,0 +1,25 @@
+div[cdkDropList] {
+  /* We want a column layout for top-to-bottom reordering */
+  display: flex;
+  flex-direction: column;
+  
+  /* Optional: spacing between cards */
+  gap: 16px;
+}
+
+/* The card styling you have */
+.draggable-card {
+  transition: box-shadow 0.2s;
+
+  &:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  &.drag-preview {
+    cursor: move;
+  }
+
+  &.placeholder {
+    opacity: 0.3;
+  }
+}

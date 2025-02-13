@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     background-color: #1E1E2F;
-    color: #FFF;
+    color: #e90505;
   }
   
   .main-content {
@@ -11,13 +11,14 @@ body {
     align-items: flex-start;
     padding: 20px;
     min-height: calc(100vh - 64px); // Adjust for navbar height
+    background-color: #555b92;
   }
   
   .content-card {
-    width: 80%;
-    max-width: 1600px;
+    width: 95%;
+    max-width: 1900px;
     padding: 20px;
-    background-color: #2A2A3E;
+    background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     min-height: 400px; // Ensures enough space

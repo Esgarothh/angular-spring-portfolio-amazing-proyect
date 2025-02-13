@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/users")
-@CrossOrigin(origins = "http://127.0.0.1:4200") // Allow requests from Angular
+@CrossOrigin(origins = {"http://127.0.0.1:4200", "http://localhost:4200"} ) // Allow requests from Angular
 public class UserController {
 
     @Autowired
